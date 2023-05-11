@@ -1,6 +1,6 @@
 {
-  "name": "@fine/react-styled-modal",
-  "version": "0.0.1",
+  "name": "@fine1012/react-modal",
+  "version": "0.0.4",
   "module": "dist/Modal.tsx",
   "main": "dist/Modal.tsx",
   "dependencies": {
@@ -13,7 +13,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "clean": "rm -rf dist",
-    "build": "npm run clean && mkdir dist && tsc && babel src -d dist --copy-files && cp package.json README.md ./dist"
+    "build": "npm run clean && mkdir dist && tsc && babel src -d dist --copy-files"
   },
   "eslintConfig": {
     "extends": [
@@ -40,5 +40,24 @@
     "typescript": "^5.0.4",
     "@types/styled-components": "^5.1.26",
     "styled-components": "^5.3.10"
-  }
+  },
+  "types": "./dist/Modal.d.ts",
+  "description": "This modal is simple react-styled-modal.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nangkyeonglim/react-styled-modal.git"
+  },
+  "keywords": [
+    "react",
+    "styled-component",
+    "react-modal",
+    "bottom-sheet",
+    "typescript"
+  ],
+  "author": "fine1012",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nangkyeonglim/react-styled-modal/issues"
+  },
+  "homepage": "https://github.com/nangkyeonglim/react-styled-modal#readme"
 }
